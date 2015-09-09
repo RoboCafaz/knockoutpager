@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4214275C-30B5-41C6-A8D9-0EEFE2B5259B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27D8507C-0E54-48B6-8345-B1ED12ABC685}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KnockoutPager", "src\KnockoutPager\KnockoutPager.xproj", "{492E70C1-74C4-464A-A5CF-716E7F3C91FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{492E70C1-74C4-464A-A5CF-716E7F3C91FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492E70C1-74C4-464A-A5CF-716E7F3C91FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492E70C1-74C4-464A-A5CF-716E7F3C91FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492E70C1-74C4-464A-A5CF-716E7F3C91FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{492E70C1-74C4-464A-A5CF-716E7F3C91FE} = {4214275C-30B5-41C6-A8D9-0EEFE2B5259B}
+	EndGlobalSection
+EndGlobal
